@@ -4,4 +4,3 @@
 - Add readme with how to run
 - Host server online with static html page
 
-curl http://localhost:3000
