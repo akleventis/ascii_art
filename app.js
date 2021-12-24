@@ -5,10 +5,15 @@ const port = 3000
 
 const getHoliday = require('./utils/time.js')
 
-app.get('/', (req, res) => {
+app.get('/holiday', (req, res) => {
     var options = {root: path.join(__dirname, '/ascii_art')};
-    const holiday = getHoliday();
-    res.sendFile(holiday, options)
+    let file = getHoliday();
+    if (file==='') file = 'bitly.txt'
+    res.sendFile(file, options)
+})
+
+app.get('/:keyword', (req, res) => {
+
 })
 
 app.listen(port, () => {
