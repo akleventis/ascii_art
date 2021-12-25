@@ -4,7 +4,7 @@
 
 
 1. The art will reset once a deploy is run
-2. This is simple... this is safe... everythings fine 😎
+2. This is simple... this is safe... everything is going to be okay 😎
 
 (while ssh'd in)
 
@@ -15,39 +15,42 @@
 1 command. That's it (: enjoy... or continue reading to have some real some with this. 
 
 ### So what is this command doing exactly? 
- 1. Changes to home directory
- 2. Pipe response (text file) into the motd file which holds vm art at startup
+ 1. Cd to home directory
+ 2. Pipes http response (text file) into `motd`  which holds vm art at startup
  3. Exits vm (this can be omitted... next time you ssh back in, the art will appear)
 
-This is local to your vm, so you can always run a deploy.sh to reset... or send another request to the server with an invalid keyword and pipe the response into the file as shown above (invalid keyword will return default art) 
+*This is local to your vm, so you can always run a deploy.sh to reset... or send another request to the server with an invalid keyword and pipe the response into the file as shown above (invalid keyword will return default art)*
 
 ## Endpoints: 
-`curl http://localhost:3000/holiday`
+`http://localhost:3000/holiday`
 
 	- Returns holiday themed ascii art according to the current date/time
 
-`curl http://localhost:3000/{keyword}`
+`http://localhost:3000/{keyword}`
 
     - Returns specified keyword art (list below) 
 
 **If a request fails due to client errors, the default Bitly ascii art will be returned**
+christmas newyears mlk groundhog presidents easter memorial independence labor columbus veterans thanksgiving swag
 
+## Valid keywords
+|           |              |              |
+| -------   | -------------| -----------  |
+| swag      |              |              |
+| christmas | newyears     |   mlk        |
+| groundhog | presidents   |  easter      |
+| memorial  | independence |  labor       |
+| columbus  | veterans     |thanksgiving  | 
 
 ## Example using keyword
 We'll go ahead and use "groundhog" as our keyword
-However, you can replace "groundhog" with any keyword that exists in the list
+However, you can replace "groundhog" with anything listed in the table above
 
 `cd ~ ; curl http:localhost:3000/groundhog > ../etc/motd ; exit`
 
-
-
-keywords available:
-christmas newyears mlk groundhog presidents easter memorial independence labor columbus veterans thanksgiving swag
-
-
 Contributing
 ----
-### Add ascii arrt
+### Add ascii art
 
 - [ ] insert ascii art with unique name (.txt file) `/ascii_art/random` folder
 - [ ] provide mapping in `files` object under "random" `/handle/constants.js`
