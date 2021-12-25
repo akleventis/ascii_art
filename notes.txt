@@ -1,6 +1,0 @@
-- Add moment array of times for testing
-- Seperate ascii art into folders ei: 'holidays', 'misc'
-- Add optional /:keyword endpoint 
-- Add readme with how to run
-- Host server online with static html page
-

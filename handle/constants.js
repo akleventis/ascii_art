@@ -1,10 +1,7 @@
-const moment = require('moment');
-moment().format();
-
 const files = {
     // fallback
     bitly: 'bitly.txt',
-
+    
     // holidays
     christmas: 'holidays/christmas.txt',
     newyears: 'holidays/newyears.txt',
@@ -18,11 +15,11 @@ const files = {
     columbus: 'holidays/columbus.txt',  
     veterans: 'holidays/veterans.txt',
     thanksgiving: 'holidays/thanksgiving.txt', 
-    
+
     // random
     swag: 'random/swag.txt'
-    
 }
+
 
 const dates = {
     christmas: { start: '01/12/____', end: '26/12/____'},
@@ -55,29 +52,8 @@ const holidays = {
     thanksgiving: [dates.thanksgiving.start, dates.thanksgiving.end, files.thanksgiving]
 }
 
-const getHoliday = () => {
-
-    const now = moment()
-
-    const checkDate = (open, close) => {
-        const [begin, end] = [moment(open, 'DD/MM/____'), moment(close, 'DD/MM/____')]
-        return now.isBetween(begin, end, 'days', '[]') 
-    }
-
-    const filtered = Object.keys(holidays)
-    .filter(key => checkDate(holidays[key][0], holidays[key][1]))
-
-    if (filtered.length == 0 || !filtered || filtered.length > 1) return files.bitly;
-    const key = filtered[0]
-    return holidays[key][2]; 
-}
-
-const getAscii = (keyword) => {
-    return (files[keyword] ? files[keyword] : files.bitly)
-}
-
-
 module.exports = {
-    getHoliday,
-    getAscii
+    files,
+    dates,
+    holidays
 }

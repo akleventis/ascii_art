@@ -3,10 +3,11 @@ const path = require('path')
 const app = express()
 const port = 3000
 
-const { getHoliday, getAscii } = require('./handlers/time.js')
+const { getHoliday, getAscii } = require('./handle/handlers.js')
 
 app.get('/', (req, res) => {
-  res.send('')
+  const options = {root: path.join(__dirname, '/ascii_art')};
+  res.sendFile('bitly.txt', options)
 })
 
 app.get('/holiday', (req, res) => {
