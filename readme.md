@@ -31,7 +31,6 @@
     - Returns specified keyword art (list below) 
 
 **If a request fails due to client errors, the default Bitly ascii art will be returned**
-christmas newyears mlk groundhog presidents easter memorial independence labor columbus veterans thanksgiving swag
 
 ## Valid keywords
 |           |              |              |
