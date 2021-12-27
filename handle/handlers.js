@@ -18,6 +18,12 @@ const getHoliday = (dateTest) => {
     return holidays[key][2]; 
 }
 
+const getRandomFile = () => {
+    const items = [files.swag, files.fire, files.adventuretime, files.cats, files.dogs, files.southpark, files.starwars, files.shred, files.yolo, files.flowers];
+    const item = items[Math.floor(Math.random()*items.length)];
+    return item;
+}
+
 const getAscii = (keyword) => {
     return (files[keyword] ? files[keyword] : files.bitly)
 }
@@ -25,5 +31,6 @@ const getAscii = (keyword) => {
 
 module.exports = {
     getHoliday,
+    getRandomFile,
     getAscii
 }

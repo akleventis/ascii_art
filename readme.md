@@ -24,7 +24,11 @@
 ## Endpoints: 
 `http://localhost:3000/holiday`
 
-	- Returns holiday themed ascii art according to the current date/time
+	- Returns holiday themed ascii art according to the current date/time (defaults to bitly if !around a holiday)
+
+`http://localhost:3000/random`  * The fun one lol
+
+    - Returns random ascii art
 
 `http://localhost:3000/{keyword}`
 
@@ -32,22 +36,26 @@
 
 **If a request fails due to client errors, the default Bitly ascii art will be returned**
 
-## Valid keywords
-|            |              |              |
-| -------    | -------------| -----------  |
-| swag       | fire         |              |
-| christmas  | newyears     | mlk          |
-| groundhog  | presidents   | easter       |
-| memorial   | independence | labor        |
-| columbus   | veterans     | thanksgiving | 
-| stpatricks | cincodemayo  | halloween    | 
+# Valid keywords
+|              |              |              |
+| -------      | -------------| -----------  |
+| swag         | fire         | cats         |
+| dogs         | southpark    | starwars     |
+| adventuretime| shred        | yolo         |
+| flowers      |              |              |
+|              |              |              |
+| christmas    | newyears     | mlk          |
+| groundhog    | presidents   | easter       |
+| memorial     | independence | labor        |
+| columbus     | veterans     | thanksgiving | 
+| stpatricks   | cincodemayo  | halloween    | 
 
 
 ## Example using keyword
-We'll go ahead and use "groundhog" as our keyword
-However, you can replace "groundhog" with anything listed in the table above
+We'll go ahead and use "shred" as our keyword
+However, you can replace "shred" with anything listed in the table above
 
-`cd ~ ; curl http:localhost:3000/groundhog > ../etc/motd ; exit`
+`cd ~ ; curl http:localhost:3000/shred > ../etc/motd ; exit`
 
 Contributing
 ----
@@ -55,11 +63,11 @@ Contributing
 
 - [ ] insert ascii art with unique name (.txt file) `/ascii_art/random` folder
 - [ ] provide mapping in `files` object under "random" `/handle/constants.js`
+- [ ] add to items array in `getRandomFile()`, location: `/handle/handlers.js`
 - [ ] add new file name to readme.md
 
 ### Add holiday
 Now supplying a holiday is a bit of a mission becuase we have to make sure the dates don't overlap => /handle/constants.js `dates` && `holidays`
- 
 
 - [ ] Add the text file too /ascii_art folder
 - [ ] Provide mapping in `files` object 
