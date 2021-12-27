@@ -33,13 +33,15 @@
 **If a request fails due to client errors, the default Bitly ascii art will be returned**
 
 ## Valid keywords
-|           |              |              |
-| -------   | -------------| -----------  |
-| swag      |              |              |
-| christmas | newyears     |   mlk        |
-| groundhog | presidents   |  easter      |
-| memorial  | independence |  labor       |
-| columbus  | veterans     |thanksgiving  | 
+|            |              |              |
+| -------    | -------------| -----------  |
+| swag       | fire         |              |
+| christmas  | newyears     | mlk          |
+| groundhog  | presidents   | easter       |
+| memorial   | independence | labor        |
+| columbus   | veterans     | thanksgiving | 
+| stpatricks | cincodemayo  | halloween    | 
+
 
 ## Example using keyword
 We'll go ahead and use "groundhog" as our keyword
@@ -66,4 +68,4 @@ Now supplying a holiday is a bit of a mission becuase we have to make sure the d
 	- [ ] `key: [dates.key.start, dates.key.end, file.key]`
 - [ ] Add new file name to readme.md
 
-	
+tests: `npm run test:watch`

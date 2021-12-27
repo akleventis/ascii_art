@@ -1,20 +1,13 @@
-       .---.
-  ___ /_____\    May 31: Memorial Day
- /\.-`( '.' )
-/ /    \_-_/_
-\ `-.-"`'V'//-.
- `.__,   |// , \
-     |Ll //Ll|\ \    You are logging into a machine 
-     |__//   | \_\        owned and managed by
-    /---|[]==| / /     ____  __  ____  __    _  _ 
-    \__/ |   \/\/     (  _ \(  )(_  _)(  )  ( \/ )
-    /_   | Ll_\|       ) _ ( )(   )(  / (_/\ )  / 
-     |`^"""^`|        (____/(__) (__) \____/(__/  
-     |   |   |
-     |   |   |          Remember, with great power 
-     |   |   |          comes great responsibility
-     |   |   |
-     L___l___J
-      |_ | _|
-     (___|___)
-      ^^^ ^^^
+
+  ______.........--=T=--.........______                         
+     .             |:|                                          
+:-. //           /""""""-.    May 31: Veterans Day                               
+': '-._____..--""(""""""()`---.__    
+ /:   _..__   ''  ":""""'[] |""`\\   
+ ': :'     `-.     _:._     '"""" :                             
+  ::          '--=:____:.___....-"                              
+                    O"       O"        
+You are logging into a machine owned and managed by 
+                ~ Bitly ~
+Remember, with great power comes great responsibility.
+

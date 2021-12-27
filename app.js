@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 app.get('/holiday', (req, res) => {
     const options = {root: path.join(__dirname, '/ascii_art')};
-    const file = getHoliday();
+    const file = (req.query.date) ? getHoliday(req.query.date) : getHoliday()
     res.sendFile(file, options)
 })
 
@@ -26,3 +26,5 @@ app.get('/:keyword', (req, res) => {
 app.listen(port, () => {
   console.log(`Ascii server listening at http://localhost:${port}`)
 })
+
+module.exports = app;
