@@ -8,7 +8,7 @@
 
 (while ssh'd in)
 
-`cd ~ ; curl http:localhost:3000/swag > ../etc/motd ; exit`
+`cd ~ ; curl http:localhost:3000/random > ../etc/motd ; exit`
 
 (now ssh back in to your vm, and experience greatness)
 
