@@ -55,6 +55,18 @@ We'll go ahead and use "shred" as our keyword
 However, you can replace "shred" with anything listed in the table above
 
 `cd ~ ; curl https://ascii.alexcod.es/shred > ../etc/motd ; exit`
+`vagrant ssh`
+```
+         __.O                    __.O
+     \    //\_               \    //\_         
+    \  _ (/     sHreD iTTT  \  _ (/    
+      ( /.\                   ( /.\          
+       `. |.                   `. |.    
+         `._)                    `._)
+You are logging into a machine owned and managed by 
+                ~ Bitly ~
+Remember, with great power comes great responsibility.
+```
 
 Contributing
 ----
