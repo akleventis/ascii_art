@@ -76,7 +76,7 @@ Contributing
 - [ ] provide mapping in `files` object under "random" `/handle/constants.js`
 - [ ] add to items array in `getRandomFile()`, location: `/handle/handlers.js`
 - [ ] add new file name to readme.md
-- [ ] Or... just add a new ascii art and hit me up... i'll code it out real quick 😂
+- [ ] Or... just add a new ascii art and hit me up 😂
 
 ### Add holiday
 Now supplying a holiday is a bit of a mission becuase we have to make sure the dates don't overlap => /handle/constants.js `dates` && `holidays`
