@@ -1,5 +1,0 @@
-test dates...
-    now.set(newDate.toObject());
-    console.log(moment('28/01/____', 'DD/MM/____'));
-    console.log(now);
-    console.log(moment('03/02/____', 'DD/MM/____'));
