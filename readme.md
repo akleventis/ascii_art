@@ -42,7 +42,7 @@
 | dogs         | southpark    | starwars     |
 | adventuretime| shred        | yolo         |
 | flowers      | newman       |              |
-|              |              |              |
+| -----------  | ------------ | ------------ |
 | christmas    | newyears     | mlk          |
 | groundhog    | presidents   | easter       |
 | memorial     | independence | labor        |
