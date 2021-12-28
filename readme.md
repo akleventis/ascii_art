@@ -7,7 +7,7 @@
 
 (while ssh'd in)
 
-`cd ~ ; curl http:localhost:3000/random > ../etc/motd ; exit`
+`cd ~ ; curl https://ascii.alexcod.es/random > ../etc/motd ; exit`
 
 (now ssh back in to your vm, and experience greatness)
 
@@ -21,15 +21,15 @@
 *This is local to your vm, so you can always run a deploy.sh to reset... or send another request to the server with an invalid keyword and pipe the response into the file as shown above (invalid keyword will return default art)*
 
 ## Endpoints: 
-`http://localhost:3000/holiday`
+`https://ascii.alexcod.es/holiday`
 
 	- Returns holiday themed ascii art according to the current date/time (defaults to bitly if !around a holiday)
 
-`http://localhost:3000/random`  * The fun one lol
+`https://ascii.alexcod.es/random`  * The fun one lol
 
     - Returns random ascii art
 
-`http://localhost:3000/{keyword}`
+`https://ascii.alexcod.es/{keyword}`
 
     - Returns specified keyword art (list below) 
 
@@ -54,7 +54,7 @@
 We'll go ahead and use "shred" as our keyword
 However, you can replace "shred" with anything listed in the table above
 
-`cd ~ ; curl http:localhost:3000/shred > ../etc/motd ; exit`
+`cd ~ ; curl https://ascii.alexcod.es/shred > ../etc/motd ; exit`
 
 Contributing
 ----
