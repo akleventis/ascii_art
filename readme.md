@@ -2,7 +2,6 @@
 
 ----
 
-
 1. The art will reset once a deploy is run
 2. This is simple... this is safe... everything is going to be okay 😎
 
@@ -42,7 +41,7 @@
 | swag         | fire         | cats         |
 | dogs         | southpark    | starwars     |
 | adventuretime| shred        | yolo         |
-| flowers      |              |              |
+| flowers      | newman       |              |
 |              |              |              |
 | christmas    | newyears     | mlk          |
 | groundhog    | presidents   | easter       |
@@ -65,6 +64,7 @@ Contributing
 - [ ] provide mapping in `files` object under "random" `/handle/constants.js`
 - [ ] add to items array in `getRandomFile()`, location: `/handle/handlers.js`
 - [ ] add new file name to readme.md
+- [ ] Or... just add a new ascii art and hit me up... i'll code it out real quick 😂
 
 ### Add holiday
 Now supplying a holiday is a bit of a mission becuase we have to make sure the dates don't overlap => /handle/constants.js `dates` && `holidays`
@@ -75,5 +75,6 @@ Now supplying a holiday is a bit of a mission becuase we have to make sure the d
 - [ ] Provide mapping in `holidays`
 	- [ ] `key: [dates.key.start, dates.key.end, file.key]`
 - [ ] Add new file name to readme.md
+- [ ] Or... just hmu and I'll code it out 
 
 tests: `npm run test:watch`

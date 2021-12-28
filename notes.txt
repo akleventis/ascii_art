@@ -1,21 +1,4 @@
-    // test
-    // let newDate = testDates.testChristmas;
-    // let newDate = testDates.testnewyears;
-    // let newDate = testDates.testmlk;
-    // let newDate = testDates.testgroundhog;
-    // let newDate = testDates.testpresidents;
-    // let newDate = testDates.teststpatricks;
-    // let newDate = testDates.testeaster;
-
-    // let newDate = testDates.testcinco;
-    // let newDate = testDates.testmemorial;
-    // let newDate = testDates.testindependence;
-    // let newDate = testDates.testlabor;
-    // let newDate = testDates.testcolumbus;
-    // let newDate = testDates.testhalloween;
-    // let newDate = testDates.testveterans;
-    // let newDate = testDates.testthanksgiving;
-
+test dates...
     now.set(newDate.toObject());
     console.log(moment('28/01/____', 'DD/MM/____'));
     console.log(now);

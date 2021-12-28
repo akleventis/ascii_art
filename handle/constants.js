@@ -33,6 +33,7 @@ const files = {
     shred: 'random/shred.txt',
     yolo: 'random/yolo.txt',
     flowers: 'random/flowers.txt',
+    newman: 'random/newman.txt'
 }
 
 const dates = {

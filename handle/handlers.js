@@ -20,7 +20,7 @@ const getHoliday = (dateTest) => {
 
 // /random
 const getRandomFile = () => {
-    const items = [files.swag, files.fire, files.adventuretime, files.cats, files.dogs, files.southpark, files.starwars, files.shred, files.yolo, files.flowers];
+    const items = [files.swag, files.fire, files.adventuretime, files.cats, files.dogs, files.southpark, files.starwars, files.shred, files.yolo, files.flowers, files.newman];
     const item = items[Math.floor(Math.random()*items.length)];
     return item;
 }
