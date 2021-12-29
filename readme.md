@@ -36,18 +36,24 @@
 **If a request fails due to client errors, the default Bitly ascii art will be returned**
 
 # Valid keywords
-|              |              |              |
+ ***RANDOM***
+ ||||
 | -------      | -------------| -----------  |
 | swag         | fire         | cats         |
 | dogs         | southpark    | starwars     |
 | adventuretime| shred        | yolo         |
-| flowers      | newman       |              |
-| -----------  | ------------ | ------------ |
+| flowers      | newman       | homer        |
+| vacation     | batman       | newyork      |
+
+***HOLIDAYS***
+||||
+| -------      | -------------| -----------  |
 | christmas    | newyears     | mlk          |
 | groundhog    | presidents   | easter       |
 | memorial     | independence | labor        |
 | columbus     | veterans     | thanksgiving | 
 | stpatricks   | cincodemayo  | halloween    | 
+| valentines   |              |              | 
 
 
 ## Example using keyword

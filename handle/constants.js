@@ -10,6 +10,7 @@ const files = {
     newyears: 'holidays/newyears.txt',
     mlk: 'holidays/mlk.txt',
     groundhog: 'holidays/groundhog.txt',
+    valentines: 'holidays/valentines.txt',
     presidents: 'holidays/presidents.txt',
     stpatricks: 'holidays/stpatricks.txt',
     easter: 'holidays/easter.txt',
@@ -33,7 +34,11 @@ const files = {
     shred: 'random/shred.txt',
     yolo: 'random/yolo.txt',
     flowers: 'random/flowers.txt',
-    newman: 'random/newman.txt'
+    newman: 'random/newman.txt',
+    homer: 'random/homer.txt',
+    vacation: 'random/vacation.txt',
+    batman: 'random/batman.txt',
+    newyork: 'random/newyork.txt',
 }
 
 const dates = {
@@ -42,6 +47,7 @@ const dates = {
     newyears1: { start: '01/01/____', end: '04/01/____'},
     mlk: { start: '14/01/____', end: '19/01/____'},
     groundhog: { start: '28/01/____', end: '03/02/____'},
+    valentines: { start: '09/02/____', end: '14/02/____'},
     presidents: { start: '17/02/____', end: '22/02/____'},
     stpatricks: { start: '13/03/____', end: '18/03/____'},
     easter: { start: '12/04/____', end: '18/04/____'},
@@ -63,6 +69,7 @@ const holidays = {
     newyears1: [dates.newyears1.start, dates.newyears1.end, files.newyears],
     mlk: [dates.mlk.start, dates.mlk.end, files.mlk],
     groundhog: [dates.groundhog.start, dates.groundhog.end, files.groundhog],
+    valentines: [dates.valentines.start, dates.valentines.end, files.valentines],
     presidents: [dates.presidents.start, dates.presidents.end, files.presidents],
     stpatricks: [dates.stpatricks.start, dates.stpatricks.end, files.stpatricks],
     easter: [dates.easter.start, dates.easter.end, files.easter],

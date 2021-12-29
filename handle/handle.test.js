@@ -46,6 +46,16 @@ describe("test holidays", () => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/groundhog.txt')).toString())
         })
     });
+    // valentines
+    test("GET /holiday", () => {
+        request(app)
+        .get("/holiday")
+        .query({date: "2021-2-14"})
+        .expect(200)
+        .then((res) => {
+            expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/valentines.txt')).toString())
+        })
+    });
     // presidents
     test("GET /holiday", () => {
         request(app)
