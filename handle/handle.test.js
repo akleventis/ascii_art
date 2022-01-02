@@ -10,7 +10,7 @@ describe("test holidays", () => {
     test("GET /holiday", async () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-12-25"})
+        .query({date: "2022-12-25"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/christmas.txt')).toString())
@@ -20,7 +20,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-1-1"})
+        .query({date: "2022-1-1"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/newyears.txt')).toString())
@@ -30,7 +30,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-1-17"})
+        .query({date: "2022-1-17"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/mlk.txt')).toString())
@@ -40,7 +40,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-2-2"})
+        .query({date: "2022-2-2"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/groundhog.txt')).toString())
@@ -50,7 +50,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-2-14"})
+        .query({date: "2022-2-14"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/valentines.txt')).toString())
@@ -60,7 +60,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-2-21"})
+        .query({date: "2022-2-21"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/presidents.txt')).toString())
@@ -70,7 +70,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-3-17"})
+        .query({date: "2022-3-17"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/stpatricks.txt')).toString())
@@ -80,7 +80,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-4-17"})
+        .query({date: "2022-4-17"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/easter.txt')).toString())
@@ -90,7 +90,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-5-5"})
+        .query({date: "2022-5-5"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/cincodemayo.txt')).toString())
@@ -100,7 +100,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-5-30"})
+        .query({date: "2022-5-30"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/memorial.txt')).toString())
@@ -110,7 +110,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-7-4"})
+        .query({date: "2022-7-4"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/independence.txt')).toString())
@@ -120,7 +120,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-9-5"})
+        .query({date: "2022-9-5"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/labor.txt')).toString())
@@ -130,7 +130,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-10-10"})
+        .query({date: "2022-10-10"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/columbus.txt')).toString())
@@ -140,7 +140,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-10-31"})
+        .query({date: "2022-10-31"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/halloween.txt')).toString())
@@ -150,7 +150,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-11-11"})
+        .query({date: "2022-11-11"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/veterans.txt')).toString())
@@ -160,7 +160,7 @@ describe("test holidays", () => {
     test("GET /holiday", () => {
         request(app)
         .get("/holiday")
-        .query({date: "2021-11-24"})
+        .query({date: "2022-11-24"})
         .expect(200)
         .then((res) => {
             expect(res.text).toBe(fs.readFileSync(path.resolve(__dirname, '../ascii_art/holidays/thanksgiving.txt')).toString())
