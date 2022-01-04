@@ -40,7 +40,7 @@
  ||||
 | -------      | -------------| -----------  |
 | swag         | fire         | cats         |
-| dogs         | southpark    | starwars     |
+|              | southpark    | starwars     |
 | adventuretime| shred        | yolo         |
 | flowers      | newman       | homer        |
 | vacation     | batman       | newyork      |

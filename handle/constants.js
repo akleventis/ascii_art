@@ -28,7 +28,7 @@ const files = {
     fire: 'random/fire.txt',
     adventuretime: 'random/adventuretime.txt',
     cats: 'random/cats.txt',
-    dogs: 'random/dogs.txt',
+    // dogs: 'random/dogs.txt',
     southpark: 'random/southpark.txt',
     starwars: 'random/starwars.txt',
     shred: 'random/shred.txt',
