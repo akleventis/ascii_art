@@ -34,11 +34,14 @@ const files = {
     shred: 'random/shred.txt',
     yolo: 'random/yolo.txt',
     flowers: 'random/flowers.txt',
+    kitty: 'random/kitty.txt',
     newman: 'random/newman.txt',
     homer: 'random/homer.txt',
+    ufo: 'random/ufo.txt',
     vacation: 'random/vacation.txt',
     batman: 'random/batman.txt',
     newyork: 'random/newyork.txt',
+    rex: 'random/rex.txt',
 }
 
 const dates = {
