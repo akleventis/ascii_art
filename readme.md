@@ -7,7 +7,7 @@
 
 (while ssh'd in)
 
-`cd ~ ; curl https://ascii.alexleventis.com/random > ../etc/motd ; exit`
+`cd ~ ; curl https://ascii.alexleventis.com/random > ../etc/motd`
 
 (now ssh back in to your vm, and experience greatness)
 
@@ -40,10 +40,11 @@
  ||||
 | -------      | -------------| -----------  |
 | swag         | fire         | cats         |
-|              | southpark    | starwars     |
+| kitty        | southpark    | starwars     |
 | adventuretime| shred        | yolo         |
 | flowers      | newman       | homer        |
 | vacation     | batman       | newyork      |
+| rex          | bear         | ufo.         |
 
 ***HOLIDAYS***
 ||||
@@ -57,20 +58,20 @@
 
 
 ## Example using keyword
-We'll go ahead and use "shred" as our keyword
-However, you can replace "shred" with anything listed in the table above
+We'll go ahead and use "bear" as our keyword
+However, you can replace "bear" with anything listed in the table above
 
-`cd ~ ; curl https://ascii.alexleventis.com/shred > ../etc/motd ; exit`
+`cd ~ ; curl https://ascii.alexleventis.com/shred > ../etc/motd`
+`exit`
 `vagrant ssh`
 ```
-         __.O                    __.O
-     \    //\_               \    //\_         
-    \  _ (/     sHreD iTTT  \  _ (/    
-      ( /.\                   ( /.\          
-       `. |.                   `. |.    
-         `._)                    `._)
-You are logging into a machine owned and managed by 
-                ~ Bitly ~
+              ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+              ───█▒▒░░░░░░░░░▒▒█───
+              ────█░░█░░░░░█░░█────
+              ─▄▄──█░░░▀█▀░░░█──▄▄─
+              █░░█─▀▄░░░░░░░▄▀─█░░█
+You are logging into a machine owned and managed by
+                    ~ Bitly ~ 
 Remember, with great power comes great responsibility.
 ```
 
