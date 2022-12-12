@@ -1,6 +1,7 @@
 ## Simple server providing themed ascii art for our VM (:
 
 ----
+(Server currently inactive)
 
 1. The art will reset once a deploy is run
 2. This is simple... this is safe... everything is going to be okay 😎
